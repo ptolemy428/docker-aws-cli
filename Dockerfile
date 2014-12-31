@@ -8,6 +8,7 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get -y install python python-dev python-p
 
 #download jq
 RUN wget http://stedolan.github.io/jq/download/linux64/jq
+RUN chmod 700 ./jq
 
 RUN pip install awscli
 
