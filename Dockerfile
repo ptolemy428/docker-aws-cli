@@ -1,5 +1,5 @@
 
-FROM dockerfile/ubuntu
+FROM ubuntu:14.10
 
 MAINTAINER Larry Liang <ptolemy428@gmail.com>
 
