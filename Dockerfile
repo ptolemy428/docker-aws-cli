@@ -12,6 +12,6 @@ RUN chmod 700 ./jq
 
 RUN apt-get install -y \
   groff \
-  less \
+  less
 
 RUN pip install awscli
